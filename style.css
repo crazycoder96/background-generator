@@ -1,0 +1,9 @@
+var bt =document.getElementById("enter");
+var inp =document.getElementById("userinput");
+var ul =document.querySelector("ul");
+bt.addEventListener("click",function(){
+	var li = document.createElement("li");
+	li.appendChild(document.createTextNode(inp.value));
+	ul.appendChild(li);
+
+	})
